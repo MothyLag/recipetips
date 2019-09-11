@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.roundedInput {
+  text-decoration-color: white;
+  color: white;
+  border-radius: 25px;
+  background-color: #3d71d7;
+  font-family: "roboto", sans-serif;
+  border-style: none;
+  height: 2.5em;
+  margin-bottom: 2.5em;
+  padding-left: 10px;
+}
+::placeholder {
+  font-family: "roboto", sans-serif;
+  color: white;
+  padding: 10px;
+}
