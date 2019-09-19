@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
-body {
+.wrapper {
   background-color: #4f88dd;
 }
 
@@ -17,6 +17,8 @@ body {
   grid-template-rows: 4rem calc(100vh - 8rem) 4rem;
 }
 .header {
+  display: flex;
+  justify-content: center;
   height: 4rem;
 }
 

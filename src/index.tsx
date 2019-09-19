@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import ApolloClient, { gql } from "apollo-boost";
+import ApolloClient from "apollo-boost";
+
 import { ApolloProvider } from "@apollo/react-hooks";
-import WebFont from "webfontloader";
 
 const client = new ApolloClient({
   uri: "http://localhost:4000/"

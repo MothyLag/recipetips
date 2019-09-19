@@ -1,6 +1,6 @@
-import React from "react";
-import { InputProps } from "./txtInpu.interface";
-import "./txtInput.css";
+import React from 'react';
+import { InputProps } from './txtInpu.interface';
+import './txtInput.css';
 export const InputText = function(props: InputProps) {
   return (
     <div>
@@ -8,7 +8,9 @@ export const InputText = function(props: InputProps) {
         name={props.name}
         placeholder={props.name}
         className="roundedInput"
-        type={props.type ? props.type : "text"}
+        type={props.type ? props.type : 'text'}
+        value={props.value}
+        onChange={props.onChange ? props.onChange : () => 0}
       />
     </div>
   );

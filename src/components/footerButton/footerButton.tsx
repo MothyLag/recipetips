@@ -4,8 +4,12 @@ import "./footerButton.css";
 
 export const FooterButton = function(props: IFooterButtonProps) {
   return (
-    <a className="fbutton">
+    <button
+      form={props.form ? props.form : ""}
+      className="fbutton"
+      onClick={props.ButtonAction}
+    >
       <b>{props.text}</b>
-    </a>
+    </button>
   );
 };
